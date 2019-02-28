@@ -180,6 +180,9 @@
             "config/packages/sensio_framework_extra.yaml"
         ]
     },
+    "svyatov/curlwrapper": {
+        "version": "v1.3.0"
+    },
     "swiftmailer/swiftmailer": {
         "version": "v6.1.3"
     },
