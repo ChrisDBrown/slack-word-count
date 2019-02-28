@@ -16,3 +16,13 @@ Still, setup is pretty quick:
 4) Run with `bin/console server:run` and hope it works
 
 Good luck!
+
+### Caveats
+
+- looks bad
+- lots of exciting detail completely ignored in the results template
+    - dig into the `user` object in the template for a fun time
+- limits search to 500 results
+    - see `ResultsController::getMessagesForQuery`
+- only shows messages in public channels from (mostly) non-bots
+    - see `continue` statement in `ResultsController::searchForTerm`
